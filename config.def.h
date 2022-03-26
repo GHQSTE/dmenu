@@ -7,6 +7,7 @@ static int topbar = 1;                      /* -b  option; if 0, dmenu appears a
 static char font[] = "JetBrains Mono:size=10";
 static const char *fonts[] = {
   font,
+  "JoyPixels:pixelsize=11:antialias=true:autohint=true",
 };
 
 static char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
